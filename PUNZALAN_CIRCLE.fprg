@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-29 08:57:46 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMDRDMzQ7MjAxOS0xMC0yOTswODowMTozMyBBTTsyMTk5"/>
+        <attribute name="edited" value="UmFtcztMQUIzMDRDMzQ7MjAxOS0xMC0yOTswODo1Nzo0NiBBTTsyOzIzMjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radius" type="Real" array="False" size=""/>
+            <declare name="area" type="String" array="False" size=""/>
+            <input variable="radius"/>
+            <assign variable="area" expression="Tofixed(pi *(radius *2),3)"/>
+            <output expression="&quot;area of a circle with the radius &quot;&amp;radius &amp;&quot; is &quot;&amp;area" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
